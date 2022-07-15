@@ -1,0 +1,188 @@
+/*** RESET ***/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  height: 100vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #1f1f1f, #010101);
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**********/
+.title {
+  font-size: 32px;
+  font-weight: bold;
+  color: beige;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+
+.select-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.select-container .select {
+  font-size: 16px;
+  text-transform: uppercase;
+  color: beige;
+  background-color: transparent;
+  display: block;
+  padding: 8px 16px;
+  border: 2px solid cornflowerblue;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.select-container .select:focus {
+  outline: none;
+}
+
+.image-container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.image-container .image {
+  max-width: 95%;
+  max-height: 95%;
+  display: block;
+  border: 2px solid beige;
+  box-sizing: border-box;
+  object-fit: cover;
+  object-position: center;
+}
+
+/*# sourceMappingURL=style.css.map */
